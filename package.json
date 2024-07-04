@@ -1,0 +1,31 @@
+{
+	"name": "use-action-state-compat",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "commonjs",
+	"exports": {
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsup ./src/index.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"tsup": "^8.1.0",
+		"typescript": "^5.5.3"
+	},
+	"peerDependencies": {
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"react": "^18.3.0-canary-0210f0b08-20230525",
+		"react-dom": "^18.3.0-canary-ea17cc18f-20230807"
+	}
+}
