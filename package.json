@@ -1,5 +1,5 @@
 {
-	"name": "use-action-state-compat",
+	"name": "@strozw/use-action-state-compat",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
