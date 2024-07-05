@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
-	"type": "commonjs",
+	"type": "module",
 	"exports": {
 		".": {
 			"require": "./dist/index.cjs",
@@ -19,13 +19,17 @@
 	"license": "ISC",
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.3",
+		"@testing-library/jest-dom": "^6.4.6",
+		"@testing-library/react": "^16.0.0",
+		"jsdom": "^24.1.0",
 		"tsup": "^8.1.0",
-		"typescript": "^5.5.3"
+		"typescript": "^5.5.3",
+		"vitest": "^1.6.0"
 	},
 	"peerDependencies": {
 		"@types/react": "^18.3.3",
 		"@types/react-dom": "^18.3.0",
-		"react": "^18.3.0-canary-0210f0b08-20230525",
-		"react-dom": "^18.3.0-canary-ea17cc18f-20230807"
+		"react": "^18.3.0-canary < 18.3.0",
+		"react-dom": "^18.3.0-canary < 18.3.0"
 	}
 }
