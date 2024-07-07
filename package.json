@@ -1,6 +1,6 @@
 {
 	"name": "@strozw/use-action-state-compat",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Next.js v14 and React.js v18 canary compatible `useActionState`",
 	"main": "index.js",
 	"type": "module",
