@@ -1,6 +1,6 @@
 {
   "name": "@strozw/use-action-state-compat",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "author": "strozw",
   "license": "MIT",
   "description": "Next.js v14 and React.js v18 canary compatible `useActionState`",
