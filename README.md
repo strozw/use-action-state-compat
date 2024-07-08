@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/npm/v/%40strozw%2Fuse-action-state-compat" />
+
 # useActionStateCompat
 
 Next.js v14 and React.js v18 canary compatible `useActionState`
