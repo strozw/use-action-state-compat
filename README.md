@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/npm/v/%40strozw%2Fuse-action-state-compat" />
+[<img src="https://img.shields.io/npm/v/%40strozw%2Fuse-action-state-compat" />](https://www.npmjs.com/package/@strozw/use-action-state-compat)
 
 # useActionStateCompat
 
