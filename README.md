@@ -4,10 +4,10 @@
 
 Next.js v14 and React.js v18 canary compatible `useActionState`
 
-## Install
+## Installation
 
 ```
-npm install -D @strozw/use-action-state-compat
+npm install @strozw/use-action-state-compat
 ```
 
 ## Usage
