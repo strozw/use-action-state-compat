@@ -1,6 +1,6 @@
 {
 	"name": "@strozw/use-action-state-compat",
-	"version": "0.1.1",
+	"version": "0.1.0",
 	"description": "Next.js v14 and React.js v18 canary compatible `useActionState`",
 	"main": "index.js",
 	"type": "module",
@@ -13,21 +13,11 @@
 	},
 	"scripts": {
 		"test": "vitest --run",
-		"build": "tsup ./src/index.ts"
+		"build": "tsup"
 	},
-	"files": [
-		"dist",
-		"package.json"
-	],
-	"keywords": [
-		"react",
-		"react-dom",
-		"hook",
-		"action",
-		"state",
-		"form"
-	],
-	"author": "",
+	"files": ["dist", "package.json"],
+	"keywords": ["react", "react-dom", "hook", "action", "state", "form"],
+	"author": "strozw",
 	"license": "MIT",
 	"devDependencies": {
 		"@biomejs/biome": "^1.8.3",
